@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- thread-count 定义同时启动的浏览器数 、parallel="tests" 表明每个test都是平级的 -->
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="selenium_2_combat" parallel="tests" thread-count="1">
+	<!-- chrome,firefox,ghost和ie不区分大小写 -->
+	<parameter name="browserName" value="firefox" />
+	<!-- driver的属性配置文件保存路径 -->
+	<parameter name="driverConfgFilePath" value="config/driver.properties" />
+	<!-- 定义测试的站点 -->
+	<parameter name="testurl" value="http://60.30.69.61:8290/CESEMDMS/j_spring_security_logout" />
+	
+	<!-- 进程等待1秒中的控制时间 -->
+	<parameter name="sleepTime" value="800" />
+	<!-- 页面元素10秒不出现超时时间 -->
+	<parameter name="timeOut" value="20" />
+	<!-- 这个是等待alert弹出的时间 单位毫秒 -->
+	<parameter name="waitMillisecondsForAlert" value="40000" />
+
+	
+	
+	
+
+	<!-- 定义测试模块，用test标签包围 -->
+	<!-- 先进行登陆模块的测试 -->
+	
+	<test name="Login" preserve-order="true">
+		<packages>
+			<package name="info.catarc.webdriver.testcases.login" />
+		</packages>
+	</test> 
+	
+	<!-- 进行数据管理模块的测试 -->
+	<test name="Data Management" preserve-order="true">
+		<packages>
+			<package name="info.catarc.webdriver.testcases.data" />
+		</packages>
+	</test> 
+	
+	
+	<test name="Information Management" preserve-order="true">
+		<packages>
+			<package name="info.catarc.webdriver.testcases.add" />
+		</packages>
+	</test> 
+	
+	
+	
+	<listeners>
+		<!-- arrow插件实现用例失败重跑以及生成测试报告 -->
+		<!--  
+		<listener class-name="info.catarc.webdriver.plugins.arrow.TestResultListener" />
+		<listener class-name="info.catarc.webdriver.arrow.RetryListener" />
+		<listener class-name="info.catarc.webdriver.arrow.PowerEmailableReporter" /> -->
+		<!-- Excel报告插件测试结果以excel形式导出 -->
+			<!--  <listener class-name="info.catarc.webdriver.excelReporter.TestResultListener"/>
+		<listener class-name="info.catarc.webdriver.excelReporter.ExcelReporter"/>
+		-->
+		
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+   		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+</suite> 

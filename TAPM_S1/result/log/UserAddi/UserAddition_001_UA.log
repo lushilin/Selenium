@@ -1,0 +1,38 @@
+[2016-07-01 14:26:21] [INFO] 当前操作系统是:[Windows 10]
+[2016-07-01 14:26:21] [INFO] 启动测试浏览器：[firefox]
+[2016-07-01 14:26:23] [INFO] 最大化浏览器:firefox
+[2016-07-01 14:26:24] [INFO] 打开测试页面:[http://60.30.69.61:8290/CESEMDMS/j_spring_security_logout]
+[2016-07-01 14:26:24] [INFO] 当前测试类名为:[info.catarc.webdriver.testcases.add.UserAddition_001_UA]
+[2016-07-01 14:26:24] [INFO] 开始检查登录页面元素
+[2016-07-01 14:26:24] [INFO] 开始查找元素[By.id: userName]
+[2016-07-01 14:26:24] [INFO] 找到了元素 [By.id: userName]
+[2016-07-01 14:26:24] [INFO] 开始查找元素[By.id: password]
+[2016-07-01 14:26:24] [INFO] 找到了元素 [By.id: password]
+[2016-07-01 14:26:24] [INFO] 开始查找元素[By.xpath: //form[@id='login_form']/div/div[3]/div/div[4]]
+[2016-07-01 14:26:24] [INFO] 找到了元素 [By.xpath: //form[@id='login_form']/div/div[3]/div/div[4]]
+[2016-07-01 14:26:24] [INFO] 检查登录页面元素完毕
+[2016-07-01 14:26:24] [INFO] 开始输入登录信息
+[2016-07-01 14:26:24] [INFO] 清除元素 [By.id: userName]上的内容
+[2016-07-01 14:26:24] [INFO] 输入：[TJU_tester] 到 [By.id: userName]
+[2016-07-01 14:26:24] [INFO] 清除元素 [By.id: password]上的内容
+[2016-07-01 14:26:24] [INFO] 输入：[000000] 到 [By.id: password]
+[2016-07-01 14:26:24] [INFO] 输入登录信息完毕
+[2016-07-01 14:26:30] [INFO] 点击元素 [By.xpath: //form[@id='login_form']/div/div[3]/div/div[4]]
+[2016-07-01 14:26:31] [INFO] 点击元素 [By.id: treepanel-1030_header_hd-textEl]
+[2016-07-01 14:26:31] [INFO] 点击元素 [By.linkText: 用户信息]
+[2016-07-01 14:26:35] [INFO] 输入：[TJU_tester14_26_34] 到 [By.id: UserDetailInfo.userCname-inputEl]
+[2016-07-01 14:26:35] [INFO] 输入：[TJU_tester14_26_34] 到 [By.id: UserDetailInfo.loginName-inputEl]
+[2016-07-01 14:26:35] [INFO] 点击元素 [By.id: button-1018-btnEl]
+[2016-07-01 14:26:35] [INFO] 点击元素 [By.xpath: .//*[@id='gridview-1062']/table/tbody/tr[2]/td[1]/div/div]
+[2016-07-01 14:26:36] [INFO] 点击元素 [By.id: button-1077-btnEl]
+[2016-07-01 14:26:36] [INFO] 点击元素 [By.xpath: .//*[@id='gridview-1016']/table/tbody/tr[2]/td[1]/div/div]
+[2016-07-01 14:26:36] [INFO] 点击元素 [By.id: role10-inputEl]
+[2016-07-01 14:26:36] [INFO] 点击元素 [By.id: button-1032-btnEl]
+[2016-07-01 14:26:36] [INFO] 点击元素 [By.xpath: .//*[@id='gridview-1104']/table/tbody/tr[2]/td[1]/div/div]
+[2016-07-01 14:26:37] [INFO] 点击元素 [By.id: button-1119-btnEl]
+[2016-07-01 14:26:37] [INFO] 点击元素 [By.xpath: .//*[@id='gridview-1030']/table/tbody/tr[2]/td[1]/div/div]
+[2016-07-01 14:26:37] [INFO] 点击元素 [By.id: button-1036-btnEl]
+[2016-07-01 14:26:40] [INFO] 点击元素 [By.id: button-1005-btnEl]
+[2016-07-01 14:26:42] [INFO] 点击元素 [By.id: treepanel-1030_header_hd-textEl]
+[2016-07-01 14:26:42] [INFO] 点击元素 [By.linkText: 用户信息]
+[2016-07-01 14:26:47] [INFO] The [TJU_tester14_26_34] is contains [TJU_tester14_26_34]

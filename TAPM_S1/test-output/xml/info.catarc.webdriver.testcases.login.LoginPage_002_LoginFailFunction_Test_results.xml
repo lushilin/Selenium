@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Login"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.272">
+  <properties />
+  
+  
+            <testcase name="loginSuccessFunction" time="0.272" classname="info.catarc.webdriver.testcases.login.LoginPage_002_LoginFailFunction_Test" />
+      
+</testsuite>

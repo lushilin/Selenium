@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Data Management"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="9.776">
+  <properties />
+  
+  
+            <testcase name="verify" time="9.776" classname="info.catarc.webdriver.testcases.data.DataManagement_003_MDS" />
+      
+</testsuite>

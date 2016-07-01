@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="selenium_2_combat" duration-ms="12951" started-at="2016-06-27T06:54:54Z" finished-at="2016-06-27T06:55:07Z">
+    <groups>
+    </groups>
+    <test name="Login" duration-ms="12951" started-at="2016-06-27T06:54:54Z" finished-at="2016-06-27T06:55:07Z">
+      <class name="info.catarc.webdriver.testcases.login.LoginPage_004_LoginXXXFunction">
+        <test-method status="PASS" signature="startTest(org.testng.ITestContext)[pri:0, instance:info.catarc.webdriver.testcases.login.LoginPage_004_LoginXXXFunction@7d417077]" name="startTest" is-config="true" duration-ms="2936" started-at="2016-06-27T14:54:54Z" finished-at="2016-06-27T14:54:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7f690630]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="loginSuccessFunction(java.util.Map)[pri:0, instance:info.catarc.webdriver.testcases.login.LoginPage_004_LoginXXXFunction@7d417077]" name="loginSuccessFunction" duration-ms="9363" started-at="2016-06-27T14:54:57Z" data-provider="testData" finished-at="2016-06-27T14:55:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PASSWORD=000000, USERNAME=TJU_tester}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccessFunction -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:info.catarc.webdriver.testcases.login.LoginPage_004_LoginXXXFunction@7d417077]" name="endTest" is-config="true" duration-ms="469" started-at="2016-06-27T14:55:06Z" finished-at="2016-06-27T14:55:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- info.catarc.webdriver.testcases.login.LoginPage_004_LoginXXXFunction -->
+    </test> <!-- Login -->
+  </suite> <!-- selenium_2_combat -->
+</testng-results>

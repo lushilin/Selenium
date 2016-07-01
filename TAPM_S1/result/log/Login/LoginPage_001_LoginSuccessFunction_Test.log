@@ -1,0 +1,21 @@
+[2016-07-01 14:38:24] [INFO] 当前操作系统是:[Windows 10]
+[2016-07-01 14:38:24] [INFO] 启动测试浏览器：[firefox]
+[2016-07-01 14:38:26] [INFO] 最大化浏览器:firefox
+[2016-07-01 14:38:31] [INFO] 打开测试页面:[http://60.30.69.61:8290/CESEMDMS/j_spring_security_logout]
+[2016-07-01 14:38:31] [INFO] 当前测试类名为:[info.catarc.webdriver.testcases.login.LoginPage_001_LoginSuccessFunction_Test]
+[2016-07-01 14:38:31] [INFO] 开始检查登录页面元素
+[2016-07-01 14:38:31] [INFO] 开始查找元素[By.id: userName]
+[2016-07-01 14:38:31] [INFO] 找到了元素 [By.id: userName]
+[2016-07-01 14:38:31] [INFO] 开始查找元素[By.id: password]
+[2016-07-01 14:38:31] [INFO] 找到了元素 [By.id: password]
+[2016-07-01 14:38:31] [INFO] 开始查找元素[By.xpath: //form[@id='login_form']/div/div[3]/div/div[4]]
+[2016-07-01 14:38:31] [INFO] 找到了元素 [By.xpath: //form[@id='login_form']/div/div[3]/div/div[4]]
+[2016-07-01 14:38:31] [INFO] 检查登录页面元素完毕
+[2016-07-01 14:38:31] [INFO] 开始输入登录信息
+[2016-07-01 14:38:31] [INFO] 清除元素 [By.id: userName]上的内容
+[2016-07-01 14:38:31] [INFO] 输入：[TJU_tester] 到 [By.id: userName]
+[2016-07-01 14:38:31] [INFO] 清除元素 [By.id: password]上的内容
+[2016-07-01 14:38:31] [INFO] 输入：[000000] 到 [By.id: password]
+[2016-07-01 14:38:31] [INFO] 输入登录信息完毕
+[2016-07-01 14:38:51] [INFO] 点击元素 [By.xpath: //form[@id='login_form']/div/div[3]/div/div[4]]
+[2016-07-01 14:38:52] [INFO] 当前测试类名为:[info.catarc.webdriver.testcases.login.LoginPage_002_LoginFailFunction_Test]

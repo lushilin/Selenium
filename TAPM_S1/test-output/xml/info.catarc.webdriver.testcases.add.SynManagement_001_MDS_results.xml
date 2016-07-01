@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Information Management"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="61.354">
+  <properties />
+  
+  
+            <testcase name="Syn" time="61.354" classname="info.catarc.webdriver.testcases.add.SynManagement_001_MDS" />
+      
+</testsuite>

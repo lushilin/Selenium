@@ -1,0 +1,8 @@
+[2016-06-30 09:08:36] [INFO] 当前操作系统是:[Windows 10]
+[2016-06-30 09:08:36] [INFO] 启动测试浏览器：[firefox]
+[2016-06-30 09:08:38] [INFO] 最大化浏览器:firefox
+[2016-06-30 09:08:38] [INFO] 打开测试页面:[http://60.30.69.61:8290/CESEMDMS/j_spring_security_logout]
+[2016-06-30 09:08:38] [INFO] 当前测试类名为:[info.catarc.webdriver.testcases.login.LoginPage_004_LoginXXXFunction]
+[2016-06-30 09:08:38] [INFO] 开始检查登录页面元素
+[2016-06-30 09:08:38] [INFO] 开始查找元素[By.id: userName]
+[2016-06-30 09:08:59] [ERROR] 超时!! 20 秒之后还没找到元素 [By.id: userName]

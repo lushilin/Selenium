@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="selenium_2_combat" duration-ms="61315" started-at="2016-06-11T11:19:57Z" finished-at="2016-06-11T11:20:58Z">
+    <groups>
+    </groups>
+    <test name="Login" duration-ms="61315" started-at="2016-06-11T11:19:57Z" finished-at="2016-06-11T11:20:58Z">
+      <class name="info.catarc.webdriver.testcases.login.LoginPage_002_LoginFailFunction_Test">
+        <test-method status="PASS" signature="startTest(org.testng.ITestContext)[pri:0, instance:info.catarc.webdriver.testcases.login.LoginPage_002_LoginFailFunction_Test@5e025e70]" name="startTest" is-config="true" duration-ms="22796" started-at="2016-06-11T19:19:57Z" finished-at="2016-06-11T19:20:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7e0ea639]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="loginSuccessFunction(java.util.Map)[pri:0, instance:info.catarc.webdriver.testcases.login.LoginPage_002_LoginFailFunction_Test@5e025e70]" name="loginSuccessFunction" duration-ms="2275" started-at="2016-06-11T19:20:20Z" data-provider="testData" finished-at="2016-06-11T19:20:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PASSWORD=, USERNAME=jojo, ERROR=Web Tours Error - Incorrect Password}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccessFunction -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:info.catarc.webdriver.testcases.login.LoginPage_002_LoginFailFunction_Test@5e025e70]" name="endTest" is-config="true" duration-ms="2877" started-at="2016-06-11T19:20:22Z" finished-at="2016-06-11T19:20:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- info.catarc.webdriver.testcases.login.LoginPage_002_LoginFailFunction_Test -->
+      <class name="info.catarc.webdriver.testcases.login.LoginPage_001_LoginSuccessFunction_Test">
+        <test-method status="PASS" signature="startTest(org.testng.ITestContext)[pri:0, instance:info.catarc.webdriver.testcases.login.LoginPage_001_LoginSuccessFunction_Test@1fbc7afb]" name="startTest" is-config="true" duration-ms="26871" started-at="2016-06-11T19:20:25Z" finished-at="2016-06-11T19:20:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7e0ea639]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="loginSuccessFunction(java.util.Map)[pri:0, instance:info.catarc.webdriver.testcases.login.LoginPage_001_LoginSuccessFunction_Test@1fbc7afb]" name="loginSuccessFunction" duration-ms="2472" started-at="2016-06-11T19:20:53Z" data-provider="testData" finished-at="2016-06-11T19:20:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PASSWORD=000004, USERNAME=888}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccessFunction -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:info.catarc.webdriver.testcases.login.LoginPage_001_LoginSuccessFunction_Test@1fbc7afb]" name="endTest" is-config="true" duration-ms="2679" started-at="2016-06-11T19:20:55Z" finished-at="2016-06-11T19:20:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- info.catarc.webdriver.testcases.login.LoginPage_001_LoginSuccessFunction_Test -->
+    </test> <!-- Login -->
+  </suite> <!-- selenium_2_combat -->
+</testng-results>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Data Management"
+           tests="1"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="15.439">
+  <properties />
+            <testcase name="audit" time="15.439" classname="info.catarc.webdriver.testcases.data.DataManagement_002_MDS">
+                <failure type="java.lang.AssertionError"
+                  message="Failed to click element [By.xpath: .//*[@id=&apos;gridview-1015&apos;]/table/tbody/tr[2]/td[1]/div/div]"
+              >
+<![CDATA[java.lang.AssertionError: Failed to click element [By.xpath: .//*[@id='gridview-1015']/table/tbody/tr[2]/td[1]/div/div]
+  org.testng.Assert.fail(Assert.java:83)
+  info.catarc.webdriver.utils.SeleniumUtil.click(SeleniumUtil.java:123)
+  info.catarc.webdriver.testcases.data.DataManagement_002_MDS.audit(DataManagement_002_MDS.java:41)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:497)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+  org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+  org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+  java.util.concurrent.FutureTask.run(FutureTask.java:266)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.Exception: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":".//*[@id='gridview-1015']/table/tbody/tr[2]/td[1]/div/div"}
+Command duration or timeout: 8 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: '东瓜皮', ip: '192.168.42.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2ee5ecf9-2a9c-4662-80a7-d4f65e5802ae
+*** Element info: {Using=xpath, value=.//*[@id='gridview-1015']/table/tbody/tr[2]/td[1]/div/div}
+  info.catarc.webdriver.utils.SeleniumUtil.clickTheClickable(SeleniumUtil.java:135)
+  info.catarc.webdriver.utils.SeleniumUtil.clickTheClickable(SeleniumUtil.java:139)
+  info.catarc.webdriver.utils.SeleniumUtil.clickTheClickable(SeleniumUtil.java:139)
+  info.catarc.webdriver.utils.SeleniumUtil.clickTheClickable(SeleniumUtil.java:139)
+  info.catarc.webdriver.utils.SeleniumUtil.clickTheClickable(SeleniumUtil.java:139)
+  info.catarc.webdriver.utils.SeleniumUtil.clickTheClickable(SeleniumUtil.java:139)
+  info.catarc.webdriver.utils.SeleniumUtil.click(SeleniumUtil.java:117)
+  info.catarc.webdriver.testcases.data.DataManagement_002_MDS.audit(DataManagement_002_MDS.java:41)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:497)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+  org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+  org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+  java.util.concurrent.FutureTask.run(FutureTask.java:266)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":".//*[@id='gridview-1015']/table/tbody/tr[2]/td[1]/div/div"}
+Command duration or timeout: 8 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: '东瓜皮', ip: '192.168.42.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2ee5ecf9-2a9c-4662-80a7-d4f65e5802ae
+*** Element info: {Using=xpath, value=.//*[@id='gridview-1015']/table/tbody/tr[2]/td[1]/div/div}
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+  java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+  org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+  org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+  org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+  org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+  info.catarc.webdriver.utils.SeleniumUtil.findElementBy(SeleniumUtil.java:101)
+  info.catarc.webdriver.utils.SeleniumUtil.clickTheClickable(SeleniumUtil.java:131)
+  info.catarc.webdriver.utils.SeleniumUtil.clickTheClickable(SeleniumUtil.java:139)
+  info.catarc.webdriver.utils.SeleniumUtil.clickTheClickable(SeleniumUtil.java:139)
+  info.catarc.webdriver.utils.SeleniumUtil.clickTheClickable(SeleniumUtil.java:139)
+  info.catarc.webdriver.utils.SeleniumUtil.clickTheClickable(SeleniumUtil.java:139)
+  info.catarc.webdriver.utils.SeleniumUtil.clickTheClickable(SeleniumUtil.java:139)
+  info.catarc.webdriver.utils.SeleniumUtil.click(SeleniumUtil.java:117)
+  info.catarc.webdriver.testcases.data.DataManagement_002_MDS.audit(DataManagement_002_MDS.java:41)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:497)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+  org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+  org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+  java.util.concurrent.FutureTask.run(FutureTask.java:266)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":".//*[@id='gridview-1015']/table/tbody/tr[2]/td[1]/div/div"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: '东瓜皮', ip: '192.168.42.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_66'
+Driver info: driver.version: unknown
+  <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/admin/AppData/Local/Temp/anonymous3122734454769219944webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+  <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/admin/AppData/Local/Temp/anonymous3122734454769219944webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)
+  <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/admin/AppData/Local/Temp/anonymous3122734454769219944webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+  <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/admin/AppData/Local/Temp/anonymous3122734454769219944webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
+  <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/admin/AppData/Local/Temp/anonymous3122734454769219944webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+  
+</testsuite>
